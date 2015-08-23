@@ -42,4 +42,4 @@ RUN cd $HOME/cbrain/BrainPortal    && \
 RUN cd $HOME/cbrain/Bourreau       && \
     bundle install                 && \
     rake cbrain:plugins:install:plugins
-EXPOSE 3000
+EXPOSE [3000,22]
