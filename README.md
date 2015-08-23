@@ -55,7 +55,7 @@ rake db:sanity:check RAILS_ENV=development
 ```
 
 ```
-rvm use 2.2.1
+rvm use ruby-2.2.1
 bundle install
 ```
 (these last 2 steps will be included in the Dockerfile).
