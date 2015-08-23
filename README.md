@@ -46,6 +46,7 @@ Edit config_portal.rb: there is a single assignment for a constant named CBRAIN_
 ```
 cd $HOME/cbrain/BrainPortal
 rake db:schema:load RAILS_ENV=development
+rake db:migrate
 rake db:seed RAILS_ENV=development
 ```
 Write down the admin password.
